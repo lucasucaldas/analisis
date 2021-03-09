@@ -21,7 +21,7 @@ label{
     margin: 5rem;
 }
 
-.section{
+section{
     margin: 1rem;
     border: solid blue;
     padding: 1rem;
@@ -40,4 +40,8 @@ label{
     border-radius: 1rem;
     padding: 1rem;
     font-size: small;
+}
+
+.finalizaFor{
+    padding-bottom: 2rem;
 }

@@ -10,7 +10,7 @@
   <body>
     <main class="container">
       <h1 class="title">FUNCIÓN MISTERIO</h1>
-      <section class="section">
+      <section>
         <h2>Factorial</h2>
         <input type="number" id="n" />
         <button class="button" onclick="misterio()">boton</button>
@@ -18,7 +18,7 @@
           <p class="resultado" id="resultado">Resultado:</p>
         </div>
       </section>
-      <section class="section">
+      <section>
         <h1>Taller</h1>
         <label for="a">Dato a</label>
         <input type="number" id="a" name="a" />
@@ -27,7 +27,7 @@
         <button class="button" onclick="demostrar()">Solucion</button>
         <p class="resultado" id="resultadoDemostrar">Resultado:</p>
       </section>
-      <section class="section">
+      <section>
         <h2>Pregunta 2.2</h2>
         <label for="x">Dato x</label>
         <input type="number" id="x" name="x" />
@@ -38,7 +38,7 @@
         <button class="button" onclick="preguntaDos()">Solucion</button>
         <p class="resultado" id="preguntaDos">Resultado:</p>
       </section>
-      <section class="section">
+      <section>
         <button>
           <a
             style="text-decoration: none"
@@ -48,6 +48,13 @@
             <span>Háblanos</span>
           </a>
         </button>
+      </section>
+      <section>
+        <h1>Selection Sort</h1>
+        <label for="selectionSortArray">Ingrese los datos separados por coma</label>
+        <input type="text" id="selectionSortArray" name="selectionSortArray">
+        <button class="button" onclick="selectionSort()">Ejecutar</button>
+        <div id="respuestaSelectionSort"></div>
       </section>
     </main>
     <script src="./dist/js/script.js"></script>
