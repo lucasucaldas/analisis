@@ -40,14 +40,12 @@ function misterio() {
   function procedimientoInsercion(){
     let A = document.getElementById("arregloInsercion").value.split(",");
     let n = A.length;
-    let x; 
-    let j;
     for (let i = 1; i < n; i++){
-      x = A[i];
-      j = i - 1;
-      while(x < A[j] && j > 0){
+      let x = A[i];
+      let j = i - 1;
+      while((x < A[j]) && (j > -1)){
         A[j + 1] = A[j];
-        j = j - 1;
+        j--;
       }
       A[j + 1] = x;
     }
