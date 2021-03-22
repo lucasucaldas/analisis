@@ -26,6 +26,8 @@ label{
     border: solid blue;
     padding: 1rem;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -40,4 +42,9 @@ label{
     border-radius: 1rem;
     padding: 1rem;
     font-size: small;
+}
+
+.image{
+    height: 50rem;
+    width: 50rem;
 }
