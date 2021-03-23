@@ -42,9 +42,10 @@ label{
     border-radius: 1rem;
     padding: 1rem;
     font-size: small;
+    width: 20vw;
 }
 
 .image{
-    height: 25%;
-    width: 25%;
+    height: 30vh;
+    width: 60vw;
 }
