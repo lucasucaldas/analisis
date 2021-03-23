@@ -51,3 +51,21 @@ function misterio() {
     }
     document.getElementById("resultadoInsercion").innerText = A;
   }
+
+  function busquedaSecuencial(){
+    let A = document.getElementById("arraySecuencial").value.split(",");
+    let x = document.getElementById("valorBuscado").value;
+    let n = A.length;
+    let resp = -1;
+    let i = 1;
+
+    while((i <= n) && (resp == -1)){
+      if (A[i] == x){
+        resp = i;
+      }
+      else i = i + 1;
+    }
+
+    document.getElementById("respuestaBusquedaSecuencial").innerHTML = `El 
+    número se encuentra en la posición "${resp + 1}"`;
+  }
