@@ -69,3 +69,16 @@ function misterio() {
     document.getElementById("respuestaBusquedaSecuencial").innerHTML = `El 
     número se encuentra en la posición "${resp + 1}"`;
   }
+
+  function factorialRecursivo(n) {
+    let f;
+    if(n == 0 || n == 1){
+      f = 1;
+      document.getElementById("resultadoFactorialRecursivo").innerHTML = f;
+      return f;
+    } else {
+      f = n * factorialRecursivo(n - 1);
+      document.getElementById("resultadoFactorialRecursivo").innerHTML = f;
+      return f;
+    }
+  }
