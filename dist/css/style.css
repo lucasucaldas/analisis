@@ -42,12 +42,13 @@ section{
     border-radius: 1rem;
     padding: 1rem;
     font-size: small;
+    width: 20vw;
 }
 
 .finalizaFor{
     padding-bottom: 2rem;
 }
 .image{
-    height: 25%;
-    width: 25%;
+    height: 30vh;
+    width: 60vw;
 }
